@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  background-color: #4da9d8;
+}
+
+.container {
+  margin: auto;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  margin-top: 2.5rem;
+}
+
+.image-wrapper {
+  width: 120px;
+  height: 120px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.logo {
+  background-color: white;
+  width: 50%;
+}
+
+.column-one-third {
+  text-align: center;
+  flex-basis: 20%;
+  padding: 1rem;
+}
