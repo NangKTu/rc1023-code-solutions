@@ -1,0 +1,78 @@
+html {
+  font-size: 18px;
+}
+
+body {
+  line-height: 1.9rem;
+  font-family: Karla, sans-serif;
+  color: rgb(100, 100, 100);
+}
+
+h1 {
+  margin: 7rem 0 2rem;
+  font-size: 3.25rem;
+  letter-spacing: 0.25rem;
+}
+
+h3 {
+  margin: 2.25rem auto 0.5rem;
+  font-size: 0.95rem;
+  line-height: 1.35rem;
+}
+
+header {
+  text-align: center;
+}
+
+h1,
+h3 {
+  color: rgb(14, 14, 14);
+}
+
+.intro {
+  margin-bottom: 3rem;
+}
+
+h1,
+h3,
+.learn-more {
+  text-transform: uppercase;
+}
+
+h3,
+.learn-more {
+  letter-spacing: 0.1rem;
+}
+
+.benefits {
+  width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-columns {
+  flex-basis: 50%;
+  display: flex;
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+}
+
+.informations > p {
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more {
+  height: 2.75rem;
+  border: 2px solid;
+  padding: 0.5rem 3rem;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: rgb(207, 46, 34);
+  background-color: white;
+}
