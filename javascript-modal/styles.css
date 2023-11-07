@@ -1,0 +1,47 @@
+#openmodal {
+  background-color: #1669d2;
+  color: white;
+  width: 15%;
+  height: 100%;
+  font-size: large;
+  cursor: pointer;
+}
+
+.header {
+  height: 40px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  height: 100% vh;
+  width: 100% vw;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.box {
+  background-color: white;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  position: relative;
+}
+
+p {
+  font-size: 2rem;
+}
+
+#no {
+  background-color: #fc7989;
+  color: white;
+  font-size: large;
+  width: 20%;
+  height: 2.5rem;
+  cursor: pointer;
+}
