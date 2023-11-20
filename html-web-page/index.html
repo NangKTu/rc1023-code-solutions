@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML Web Page</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+      }
+
+      td:not(:first-child) {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Jelly of the Month Club</h1>
+      <h2>Make all you friends jelly of your stock of jelly!</h2>
+      <div>
+        <p>
+          Here at JOTMC Inc., we are constantly striving to supple our customers
+          with highest-quality and unique jellies on a monthly basis. For the
+          jelly lover in your life (or youself!), this is a gift that keeps on
+          giving all year round. We offer three tiers of monthly jelly joy and
+          each one offers their own perks. Here is a breakdown of each, as well
+          as your montly price:
+        </p>
+      </div>
+      <div>
+        <table>
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th>Basic Plan</th>
+              <th>Deluxe Plan</th>
+              <th>Jelly Giant Plan</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Three new curated jellies per month</td>
+              <td>&check;</td>
+              <td>&check;</td>
+              <td>&check;</td>
+            </tr>
+            <tr>
+              <td>Montly jellies come with commemorative mason jars</td>
+              <td>&nbsp;</td>
+              <td>&check;</td>
+              <td>&check;</td>
+            </tr>
+            <tr>
+              <td>Free bonus jar of preserves bi-monthly</td>
+              <td>&nbsp;</td>
+              <td>&check;</td>
+              <td>&check;</td>
+            </tr>
+            <tr>
+              <td>Free yearly tickets to Jelly Con</td>
+              <td>&nbsp;</td>
+              <td>&nbsp;</td>
+              <td>&check;</td>
+            </tr>
+            <tr>
+              <td>Montly pricing</td>
+              <td>$30</td>
+              <td>$50</td>
+              <td>$60</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <p>Like what you see? Become a part of JOTMC family today!</p>
+      </div>
+      <div>
+        <form>
+          <input type="text" name="yourname" placeholder="Your Name" />
+          <select>
+            <option value="Select">Select Your Plan</option>
+            <option value="Basic Plan">Basic Plan</option>
+            <option value="Deluxe Plan">Deluxe Plan</option>
+            <option value="Jelly Giant Plan">Jelly Giant Plan</option>
+          </select>
+          <input type="submit" />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
