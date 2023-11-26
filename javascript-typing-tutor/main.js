@@ -2,7 +2,6 @@ const $textBody = document.querySelector('.phrase');
 const textMessage = 'grumpy wizards make toxic brew';
 const spanElements = [];
 let letterNum = 0;
-// let numWrong = 0;
 
 for (let i = 0; i < textMessage.length; i++) {
   const newElement = document.createElement('span');
@@ -11,7 +10,7 @@ for (let i = 0; i < textMessage.length; i++) {
   if (i === 0) newElement.classList.add('selected');
   const letter = textMessage[i];
   if (letter === ' ') {
-    // letter = '&apos;';
+    // run nothing
   }
   newElement.textContent = letter;
   spanElements.push(newElement);
@@ -35,6 +34,5 @@ document.addEventListener('keydown', function (event) {
     letterNum++;
   } else {
     currentElement.classList.add('incorrect');
-    // numWrong ++
   }
 });
