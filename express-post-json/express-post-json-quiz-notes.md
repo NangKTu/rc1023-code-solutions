@@ -5,6 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What does the `express.json()` middleware do and when would you need it?
+  express.json() is responsible for parsing incoming JSON payloads in the request body. It is for POST or PUT.
 
 ## Notes
 
