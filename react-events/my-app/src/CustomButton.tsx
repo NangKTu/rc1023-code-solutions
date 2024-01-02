@@ -21,12 +21,8 @@ const CustomButton: FC<CustomButtonProps> = ({
     cursor: 'pointer',
   };
 
-  const handleClick = () => {
-    onCustomClick(text);
-  };
-
   return (
-    <button style={buttonStyle} onClick={handleClick}>
+    <button style={buttonStyle} onClick={() => onCustomClick(text)}>
       {text}
     </button>
   );
