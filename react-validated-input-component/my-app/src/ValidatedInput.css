@@ -1,0 +1,25 @@
+.validated-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.error-icon {
+  color: red;
+  margin-left: 5px;
+}
+
+.success-icon {
+  color: green;
+  margin-left: 5px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
